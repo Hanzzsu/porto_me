@@ -1,6 +1,7 @@
 import Hero from "@/src/components/Hero";
 import Skills from "../components/Skills";
 import CV from "../components/Cv";
+import Sertification from "../components/Sertification";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Skills />
       <CV />
+      <Sertification />
     </>
   );
 }
