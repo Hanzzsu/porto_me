@@ -31,7 +31,14 @@ export default function Skills() {
         {skills.map((item, index) => (
           <div
             key={index}
-            className="p-8 rounded-2xl bg-white/10 backdrop-blur-lg border border-white/10 shadow-xl transition hover:-translate-y-1 hover:shadow-2xl"
+            className="
+              p-8 rounded-2xl bg-white/10 backdrop-blur-lg border border-white/10
+              shadow-lg shadow-transparent
+              transition-all duration-300
+              hover:-translate-y-2
+              hover:shadow-[0_0_35px_12px_rgba(170,60,255,0.8)]
+              cursor-pointer
+            "
           >
             {/* ICON SECTION */}
             <div
