@@ -1,11 +1,11 @@
 export default function Sertification() {
   const items = [
-    { id: 1, pdf: "/sertif/COLLABORATION IN FIGMA.pdf" },
-    { id: 2, pdf: "/sertif/DESIGN DOCUMENTATION.pdf" },
-    { id: 3, pdf: "/sertif/DESIGNING CHECKOUT PROCESS.pdf" },
-    { id: 4, pdf: "/sertif/DESIGNING DASHBOARD UI.pdf" },
-    { id: 5, pdf: "/sertif/DESIGNING LANDING PAGE UI.pdf" },
-    { id: 6, pdf: "/sertif/DESIGNING ONBOARDING PROCESS.pdf" },
+    { id: 1, pdf: "/sertif/Figma for UIUX Design/COLLABORATION IN FIGMA.pdf" },
+    { id: 2, pdf: "/sertif/Figma for UIUX Design/DESIGN DOCUMENTATION.pdf" },
+    { id: 3, pdf: "/sertif/Figma for UIUX Design/DESIGNING CHECKOUT PROCESS.pdf" },
+    { id: 4, pdf: "/sertif/Figma for UIUX Design/DESIGNING DASHBOARD UI.pdf" },
+    { id: 5, pdf: "/sertif/Figma for UIUX Design/DESIGNING LANDING PAGE UI.pdf" },
+    { id: 6, pdf: "/sertif/Figma for UIUX Design/DESIGNING ONBOARDING PROCESS.pdf" },
   ];
 
   return (
