@@ -66,7 +66,7 @@ export const sertifData = {
    "MongoDB Transactions.pdf",
   ],
 
-   coursera: [
+   Coursera: [
    "Administrasi Sistem dan Layanan Infrastruktur TI.pdf",
    "Dasar-Dasar Dukungan Teknis.pdf",
    "Keamanan IT Pertahanan terhadap Kejahatan Digital.pdf",
@@ -74,7 +74,7 @@ export const sertifData = {
    "Sistem Operasi dan Anda Menjadi Pengguna yang Berdaya.pdf",
   ],
 
-   dicoding: [
+   Dicoding: [
    "Belajar Dasar Manajemen Proyek.pdf",
    "Belajar Prinsip Pemrograman SOLID.pdf",
    "Memulai Pemrograman Dengan C.pdf",
