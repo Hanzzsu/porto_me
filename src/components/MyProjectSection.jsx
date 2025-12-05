@@ -1,19 +1,19 @@
 export default function MyProjectSection() {
   const personalProjects = [
     {
-      title: "Portfolio Website",
-      image: "/projects/portfolio.png",
+      title: "UI/UX Tukang GO APP",
+      image: "/projects/Tukang Go.png",
       url: "https://example.com/portfolio",
     },
     {
-      title: "Todo App",
-      image: "/projects/todo.png",
-      url: "https://example.com/todo",
+      title: "UI/UX NeoSatsu APP",
+      image: "/projects/NeoSatsu.png",
+      url: "https://www.figma.com/design/56xawVoo4TjlPZgoDjnUlA/Neo-Satsu?node-id=133-284&m=dev&t=FowWAKYxqPb3KORS-1",
     },
     {
-      title: "Shop App",
-      image: "/projects/shop.png",
-      url: "https://example.com/shop",
+      title: "UI/UX Mobile Music APP",
+      image: "/projects/Mobile Music.png",
+      url: "https://www.figma.com/file/rBIpBtRM2GZlpfeZdfJ5FH/UI",
     },
   ];
 
@@ -29,19 +29,24 @@ export default function MyProjectSection() {
       url: "https://github.com/Hanzzsu/medisgo-web",
     },
     {
-      title: "Algorithm Visualizer",
-      image: "/projects/alg.png",
-      url: "https://example.com/alg",
+      title: "Traffic Law Enforcer Game",
+      image: "/projects/Game.png",
+      url: "https://gamenesia.itch.io/traffic-law-enforcer",
     },
   ];
 
-  const professionalProjects = [
-    {
-      title: "Company Dashboard",
-      image: "/projects/dashboard.png",
-      url: "https://example.com/dashboard",
-    },
-  ];
+ const professionalProjects = [
+  {
+    title: "Intership PT LEN Industri (PERSERO) - Mobile Developer",
+    image: "/projects/LEN.png",
+    url: "https://drive.google.com/file/d/1p49grDhy3R3rjmQKeAcm0mCuHZwfJnPv/view?usp=sharing",
+  },
+  {
+    title: "Free Lance Project - UI/UX SMA NU Kaplongan",
+    image: "/projects/SMA.jpeg",
+    url: "https://drive.google.com/file/d/1n94weFSDdeKxZZ2Jr8KBWTqu0jMycGYI/view?usp=sharing",
+  },
+];
 
   return (
     <section

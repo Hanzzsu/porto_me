@@ -1,6 +1,25 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { sertifData } from "@/src/data/sertif";
 
 export default function AllSertifPage() {
+  // State untuk tombol scroll-to-top
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 300) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   const allPdf = Object.entries(sertifData).flatMap(
     ([category, files]) =>
       files.map((file, index) => ({
@@ -28,6 +47,7 @@ export default function AllSertifPage() {
         </h1>
       </div>
 
+      {/* GRID LIST PDF */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
         {allPdf.map((item) => (
           <div key={item.id} className="flex flex-col items-center">
@@ -51,6 +71,29 @@ export default function AllSertifPage() {
           </div>
         ))}
       </div>
+
+      {/* BUTTON SCROLL TO TOP */}
+      {showButton && (
+  <button
+    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+    className="
+      fixed bottom-8 right-8 z-50
+      bg-purple-600/80 backdrop-blur-md
+      hover:bg-purple-700/90
+      text-white w-14 h-14
+      rounded-full shadow-[0_0_15px_rgba(168,85,247,0.6)]
+      hover:shadow-[0_0_25px_rgba(168,85,247,0.9)]
+      flex items-center justify-center
+      text-3xl font-bold
+      transition-all duration-300
+      animate-bounce-slow
+    "
+  >
+    ^
+  </button>
+)}
+
+
     </section>
   );
 }
