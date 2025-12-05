@@ -7,7 +7,7 @@ export default function MyProjectSection() {
     },
     {
       title: "UI/UX NeoSatsu APP",
-      image: "/projects/NeoSatsu.png",
+      image: "/projects/Neo Satsu.png",
       url: "https://www.figma.com/design/56xawVoo4TjlPZgoDjnUlA/Neo-Satsu?node-id=133-284&m=dev&t=FowWAKYxqPb3KORS-1",
     },
     {
