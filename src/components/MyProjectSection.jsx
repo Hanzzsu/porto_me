@@ -54,7 +54,7 @@ export default function MyProjectSection() {
       className="min-h-screen bg-black text-white px-6 md:px-20 py-24"
     >
       <h1 className="text-4xl md:text-5xl font-extrabold text-center mb-20 tracking-wide">
-        All My Projects
+        My Projects
       </h1>
 
       <ProjectGroup title="Personal Project" list={personalProjects} />

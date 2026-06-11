@@ -14,7 +14,7 @@ export default function Sertification() {
   return (
     <section id="sertification" className="min-h-screen bg-black text-white px-6 md:px-20 py-20">
       <div className="flex justify-between items-center mb-12">
-        <h2 className="text-4xl md:text-5xl font-bold">MY CERTIFICATION</h2>
+        <h2 className="text-4xl md:text-5xl font-bold">CERTIFICATION</h2>
 
         <a href="/allsertif" className="text-sm md:text-base text-white hover:text-purple-400 transition">
           See All Certification

@@ -80,6 +80,10 @@ export const sertifData = {
    "Memulai Pemrograman Dengan C.pdf",
    "Memulai Pemrograman dengan Haskell.pdf",
    "Memulai Pemrograman Dengan Java.pdf",
+  ],
+
+  Mandarin: [
+    "Mandarin.pdf"
   ]
 
 };
